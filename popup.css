@@ -15,3 +15,24 @@ button:disabled { background: #ccc; }
   border-top: 1px solid #eee;
   padding-top: 8px;
 }
+
+.branding a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.social-links {
+  margin-top: 5px;
+}
+
+.instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #e4405f !important;
+  font-weight: bold;
+}
+
+.instagram-link svg {
+  vertical-align: middle;
+}

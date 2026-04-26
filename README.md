@@ -48,5 +48,9 @@ Since this is a developer-focused tool, you can install it via Chrome's "Develop
 - **No Data Collection**: No reviews or personal data are ever sent to external servers.
 - **Minimal Permissions**: Only requires `activeTab` and `scripting` permissions to function on the page you are viewing.
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 Made with love by [Umar Zaib](https://github.com/umarzaib136)
