@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Review Extractor</h1>
+    <button id="extractBtn">Extract & Analyze Reviews</button>
+    <button id="cancelBtn" class="hidden">Cancel Extraction</button>
+    <div id="status" class="hidden" aria-live="polite">Starting...</div>
+    <div id="resultContainer" class="hidden">
+      <textarea id="promptOutput" readonly aria-label="Generated AI Prompt"></textarea>
+      <button id="copyBtn">Copy Prompt</button>
+    </div>
+    <footer class="branding">made with love by Umar Zaib</footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
